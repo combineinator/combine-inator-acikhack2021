@@ -33,7 +33,7 @@ Türkçe dili için veri yetersizliğine çözüm olacak bu modül sayesinde yal
 #### Kullanım:
 
 ```python
-import categorical_scraper
+import WikiWebScraper
 
 PATH = "_path_to_save_" # verinin kaydedileceği dizin
 scraper = WikiWebScraper() # scraper objesi
@@ -74,7 +74,7 @@ MP3, WAV Files Verilen ses dosyalarının çevirilmesi ile oluşan ve farklı di
 #### Kullanım:
 
 ```python
-import speech_translator
+import speechModule
 
 filename = "_audio_file_path_" # ses dosyasının kayıtlı olduğu dizin
 speechM = speechModule() # speechModule objesi
@@ -102,7 +102,7 @@ Kullanıcıdan alınan görselin işlenerek metin halinde görsele dair sorulan 
 #### Kullanım:
 
 ```python
-import lxmert
+import Lxmert
 
 lxmert = Lxmert() # lxmert objesi
 
@@ -126,13 +126,6 @@ ANSWER: laptop
 ## Mimari Yapı
 
 (Diyagram fotosu eklenecek)
-
-
-## Kullanılan Veri Setleri
-
-|Veri Seti|Açıklaması|Kullanım Alanı|
-|:------:|:------:|:------:|
-|Veri seti 1|Kısa cümlelerden oluşan Türkçe veri setidir.|.. modelinin eğitimi sırasında kullanılmıştır.|
 
 
 ## Ekibimiz
