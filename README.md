@@ -27,16 +27,19 @@ Türkçe dili için veri yetersizliğine çözüm olacak bu modül sayesinde yal
 
 
 #### Kullanım:
-python
+
+```python
 import categorical_scraper
 
+PATH = "_path_to_save_" # verinin kaydedileceği path
+scraper = WikiWebScraper() # scraper objesi
+scraper.categorical_scraper("savaş", PATH, 20, text_into_sentences_param=False) # scraperın çalıştırılması
+```
 
 #### Benzer Kütüphaneler:
 * [Wikipedia-API](https://pypi.org/project/Wikipedia-API/) : Bu kütüphanenin sağladığı özellikler yalnızca İngilizce dili ile sınırlıdır. Ancak geliştirdiğimiz... 
 * [wikipedia](https://pypi.org/project/wikipedia/) : Bu kütüphanenin sağladığı özellikler yalnızca İngilizce dili ile sınırlıdır. Ancak geliştirdiğimiz... 
 
-#### Yararlanılan Kaynaklar:
-* blabla
 
 ### Speech Translator Modülü
 
@@ -52,10 +55,15 @@ Bu modül sayesinde kullanıcıdan Türkçe veya İngilizce olarak alınan ses v
 MP3, WAV Files Verilen ses dosyalarının çevirilmesi ile oluşan ve farklı dilde telaffuz ettirilerek kaydedilen dosya ikililerine [buradan]() ulaşabilirsiniz.
 
 #### Kullanım:
-python
+```python
 import speech_translator
 
+filename = "_audio_file_path_" # ses dosyasının kayıtlı olduğu dizin
+speechM = speechModule() # speechModule objesi
+speechM.get_repo() # gerekli reponun çekilmesi
+speechM.speech2text2trans2speech(filename, "tr", "speech") # modülün çalıştırılması
 
+```
 
 #### Benzer Kütüphaneler:
 * [marcominerva](https://github.com/marcominerva)/**[TranslatorService](https://github.com/marcominerva/TranslatorService)** : Bu kütüphanenin kullanımı için Azure servislerine kayıt gereklidir. Ancak geliştirdiğimiz kütüphanede açık kaynaklı transformatör modelleri kullanıldığından dolayı herhangi bir servise bağımlılığı yoktur.
@@ -66,17 +74,21 @@ import speech_translator
 
 * [auto-translation](https://pypi.org/project/auto-translation/) : Selenium kütüphanesi yardımıyla Google Translate üzerinden çeviri yapan bu kütüphanenin kullanımı için online bir çeviri hizmeti sunulmasından dolayı çevrimiçi bağlantıya ihtiyaç duyulmaktadır. Geliştirdiğimiz kütüphane ilgili transformatör tabanlı modelleri içe aktardığından, modellerin içe aktarılması sonrasında internet bağlantısına ihtiyaç duymamakta ve offline olarak çalışabilmektedir.
 
-#### Yararlanılan Kaynaklar:
-* blabla
-
 ### LXMERT Modülü
 
 Kullanıcıdan alınan görselin işlenerek metin halinde görsele dair sorulan bir sorunun cevabını verebilen bu modül sayesinde görüntü işleme ve doğal dil işleme alanları birleştirilmiştir. 
 
 #### Kullanım:
-python
+
+```python
 import lxmert
 
+lxmert = Lxmert() # lxmert objesi
+
+PATH = '_path_to_image_' # imge pathi
+turkce_soru = 'Resimde neler var' # imgeye dair sorulacak soru
+lxmert.resim_uzerinden_soru_cevap(PATH, turkce_soru) # modülün çalıştırılması
+```
 
 #### Yararlanılan Kaynaklar:
 * [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490)
