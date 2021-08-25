@@ -117,7 +117,6 @@ lxmert.resim_uzerinden_soru_cevap(PATH, turkce_soru) # modülün çalıştırıl
 ANSWER: laptop
 ````
 ![image](https://user-images.githubusercontent.com/86968799/130857319-9ba09dcf-192d-41c5-b1a3-d93fbc4b157d.png)
-ANSWER: laptop
 
 
 #### Yararlanılan Kaynaklar:
