@@ -31,7 +31,7 @@ Türkçe dili için veri yetersizliğine çözüm olacak bu modül sayesinde yal
 ```python
 import categorical_scraper
 
-PATH = "_path_to_save_" # verinin kaydedileceği path
+PATH = "_path_to_save_" # verinin kaydedileceği dizin
 scraper = WikiWebScraper() # scraper objesi
 scraper.categorical_scraper("savaş", PATH, 20, text_into_sentences_param=False) # scraperın çalıştırılması
 ```
@@ -85,7 +85,7 @@ import lxmert
 
 lxmert = Lxmert() # lxmert objesi
 
-PATH = '_path_to_image_' # imge pathi
+PATH = '_path_to_image_' # imgenin yer aldığı dizin
 turkce_soru = 'Resimde neler var' # imgeye dair sorulacak soru
 lxmert.resim_uzerinden_soru_cevap(PATH, turkce_soru) # modülün çalıştırılması
 ```
