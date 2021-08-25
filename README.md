@@ -17,8 +17,7 @@ Birçok farklı kaynaktaki verileri işleyebilen Combine-Inator ile tanışın! 
 * Python kodlama dili kullanılan çalışmada literatürdeki en güncel algoritmalara ve mimarilere (State-Of-Art) de yer verilmiş, bu sayede doğruluk oranlarının yüksek olması hedeflenmiştir.
 
 ## Gereksinimler
-python
-numpy -- 
+Kütüphane gereksinimlerine ...'dan ulaşabilirsiniz.
 
 ## Modüller
 
