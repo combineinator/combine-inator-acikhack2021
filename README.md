@@ -125,7 +125,7 @@ ANSWER: laptop
 
 ## Mimari Yapı
 
-(Diyagram fotosu eklenecek)
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/86968799/130870921-ce667f6e-937a-40b1-83e9-70b45d3f345b.png)
 
 
 ## Ekibimiz
