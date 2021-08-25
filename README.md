@@ -19,7 +19,7 @@ Birçok farklı kaynaktaki verileri işleyebilen Combine-Inator ile tanışın! 
 
 
 ## Gereksinimler
-Kütüphane gereksinimlerine ...'dan ulaşabilirsiniz.
+Kütüphane gereksinimlerine [buradan]() ulaşabilirsiniz.
 
 
 ## Modüller
