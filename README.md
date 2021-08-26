@@ -19,7 +19,7 @@ Birçok farklı kaynaktaki verileri işleyebilen Combine-Inator ile tanışın! 
 
 
 ## Gereksinimler
-Kütüphane gereksinimlerine [buradan]() ulaşabilirsiniz.
+Kütüphane gereksinimlerine [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/requirements.txt) ulaşabilirsiniz.
 
 
 ## Modüller
@@ -38,6 +38,8 @@ import WikiWebScraper
 PATH = "_path_to_save_" # verinin kaydedileceği dizin
 scraper = WikiWebScraper() # scraper objesi
 scraper.categorical_scraper("barış", PATH, 20, text_into_sentences_param=False) # scraperın çalıştırılması
+scraper.text_scraper_from_pagelist("page_list_path", "save_path" , page_per_save=1000) # scraper fonksiyonu ile ayıklanıp kaydedilmiş sayfa listesindeki sayfa metinlerinin ayıklanması
+
 ```
 
 **Çıktı:**
@@ -68,8 +70,6 @@ Bu modül sayesinde kullanıcıdan Türkçe veya İngilizce olarak alınan ses v
 |:------:|:------:|:------:|
 |Merhaba nasılsın günün iyi geçiyor mu|Merhaba nasılsın günün iyi geçiyor mu|hello how are you having a good day|
 
-MP3, WAV Files Verilen ses dosyalarının çevirilmesi ile oluşan ve farklı dilde telaffuz ettirilerek kaydedilen dosya ikililerine [buradan]() ulaşabilirsiniz.
-
 
 #### Kullanım:
 
@@ -83,6 +83,13 @@ speechM.speech2text2trans2speech(filename, "tr", "speech") # modülün çalışt
 
 ```
 
+#### Yararlanılan Kaynaklar:
+* [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+* [blue-fish/Real-Time-Voice-Cloning](https://github.com/blue-fish/Real-Time-Voice-Cloning)
+* [facebook/wav2vec2-large-960h](https://huggingface.co/facebook/wav2vec2-large-960h)
+* [m3hrdadfi/wav2vec2-large-xlsr-turkish](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-turkish)
+* [Helsinki-NLP/opus-mt-en-trk](https://huggingface.co/Helsinki-NLP/opus-mt-en-trk)
+* [Helsinki-NLP/opus-mt-tr-en](https://huggingface.co/Helsinki-NLP/opus-mt-tr-en)
 
 #### Benzer Kütüphaneler:
 * [marcominerva](https://github.com/marcominerva)/**[TranslatorService](https://github.com/marcominerva/TranslatorService)** : Bu kütüphanenin kullanımı için Azure servislerine kayıt gereklidir. Ancak geliştirdiğimiz kütüphanede açık kaynaklı transformatör modelleri kullanıldığından dolayı herhangi bir servise bağımlılığı yoktur.
@@ -92,6 +99,7 @@ speechM.speech2text2trans2speech(filename, "tr", "speech") # modülün çalışt
 * [respeaker](https://github.com/respeaker)/**[Python-Speech-Translate](https://github.com/respeaker/Python-Speech-Translate)** : Azure servislerine ihtiyaç duyan kütüphane ayrıca Python 2 diline yönelik yazılmıştır. Hem servis bağlılığı bulunan hem de Python'ın eski sürümünü kullanan bu kütüphanenin kullanımı sırasında paket uyumsuzluğu gibi durumlarla karşılaşılabilir. Oysa Python 3.6 sürümü ile yazılmış kütüphanemiz kullanılan paketler açısından güncelliğini korumaktadır. 
 
 * [auto-translation](https://pypi.org/project/auto-translation/) : Selenium kütüphanesi yardımıyla Google Translate üzerinden çeviri yapan bu kütüphanenin kullanımı için online bir çeviri hizmeti sunulmasından dolayı çevrimiçi bağlantıya ihtiyaç duyulmaktadır. Geliştirdiğimiz kütüphane ilgili transformatör tabanlı modelleri içe aktardığından, modellerin içe aktarılması sonrasında internet bağlantısına ihtiyaç duymamakta ve offline olarak çalışabilmektedir.
+
 
 
 ### LXMERT Modülü
@@ -121,6 +129,9 @@ ANSWER: laptop
 
 #### Yararlanılan Kaynaklar:
 * [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490)
+* [hila-chefer/Transformer-MM-Explainability](https://github.com/hila-chefer/Transformer-MM-Explainability)
+* [Helsinki-NLP/opus-mt-en-trk](https://huggingface.co/Helsinki-NLP/opus-mt-en-trk)
+* [Helsinki-NLP/opus-mt-tr-en](https://huggingface.co/Helsinki-NLP/opus-mt-tr-en)
 
 
 ## Mimari Yapı
