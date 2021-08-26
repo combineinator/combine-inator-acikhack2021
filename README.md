@@ -2,6 +2,8 @@
 
 Birçok farklı kaynaktaki verileri işleyebilen Combine-Inator ile tanışın! Adını Fineas ve Ferb adlı çizgi-diziden alan Combine-Inator adlı projemiz ses, metin ve görüntü şeklinde alınan verileri kullanarak doğal dil işleme projelerine dönüştürebilmektedir.
 
+Projemizi [burada](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/Combineinator_Library.ipynb) yer alan .ipynb dosyası ile Colab üzerinden deneyebilirsiniz.
+
 ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4943c953-a53e-40f5-adb6-0b6778e88a61/d6qyszz-dd34d2a2-850a-4ef0-a10b-f5de4d5d5d90.jpg/v1/fill/w_1024,h_722,q_75,strp/dr__doofenshmirtz_and_the_combine_inator__by_zackary_d6qyszz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIyIiwicGF0aCI6IlwvZlwvNDk0M2M5NTMtYTUzZS00MGY1LWFkYjYtMGI2Nzc4ZTg4YTYxXC9kNnF5c3p6LWRkMzRkMmEyLTg1MGEtNGVmMC1hMTBiLWY1ZGU0ZDVkNWQ5MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HDuDRFU94zTKi6_QNwo2q44stlJRsVyWTZEe9EXFPN0)
 
 
@@ -50,6 +52,11 @@ Sayfa Ayrıştırılıyor: 100%|██████████| 20/20 [00:02<00:
 20 adet sayfa bulundu ve içerisinden 20 satır farklı metin ayrıştırıldı.
 ```
 
+#### Web Arayüz:
+Bu kütüphanemiz kullanım kolaylığı sağlanması amacıyla bir web arayüzüne entegre edilmiştir. Arayüz demo videosuna [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/web_arayuz_demo.mp4) ulaşabilirsiniz. Ayrıca .ipynb dosyasında yer alan kod sayesinde canlı olarak deneme gerçekleştirebilirsiniz. .ipynb dosyasına [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/Combineinator_Library.ipynb) ulaşabilirsiniz.
+
+#### .py:
+Kütüphane fonksiyonlarının kullanımının sağlanmasına alternatif sunulması amacıyla repomuzda .py uzantılı bir dosya da mevcuttur. Dosyaya [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/wiki_web_scraper.py) ulaşabilirsiniz.
 
 #### Benzer Kütüphaneler:
 * [Wikipedia-API](https://pypi.org/project/Wikipedia-API/)
