@@ -38,6 +38,8 @@ import WikiWebScraper
 PATH = "_path_to_save_" # verinin kaydedileceği dizin
 scraper = WikiWebScraper() # scraper objesi
 scraper.categorical_scraper("barış", PATH, 20, text_into_sentences_param=False) # scraperın çalıştırılması
+scraper.text_scraper_from_pagelist("page_list_path", "save_path" , page_per_save=1000) # scraper fonksiyonu ile ayıklanıp kaydedilmiş sayfa listesindeki sayfa metinlerinin ayıklanması
+
 ```
 
 **Çıktı:**
