@@ -19,7 +19,7 @@ Birçok farklı kaynaktaki verileri işleyebilen Combine-Inator ile tanışın! 
 
 
 ## Gereksinimler
-Kütüphane gereksinimlerine [buradan]() ulaşabilirsiniz.
+Kütüphane gereksinimlerine [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/requirements.txt) ulaşabilirsiniz.
 
 
 ## Modüller
