@@ -3,9 +3,10 @@ import re
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+
 def categorical_scraper(query, save_path, limit=-1,page_per_save=10000,text_into_sentences_param=True,remove_numbers=False,just_title_analysis=False):
 		"""
-		Wikipedia üzerinden kategorik olarak veri çekmek için kullanılır.
+		Wikipedia üzerinden kategorik olarak veri çekmek için kullanılır. 
  
 		:param CATEGORY_QUERY: Ayıklanacak kategori sorgusu.
 		:type CATEGORY_QUERY: str
