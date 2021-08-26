@@ -70,8 +70,6 @@ Bu modül sayesinde kullanıcıdan Türkçe veya İngilizce olarak alınan ses v
 |:------:|:------:|:------:|
 |Merhaba nasılsın günün iyi geçiyor mu|Merhaba nasılsın günün iyi geçiyor mu|hello how are you having a good day|
 
-MP3, WAV Files Verilen ses dosyalarının çevirilmesi ile oluşan ve farklı dilde telaffuz ettirilerek kaydedilen dosya ikililerine [buradan]() ulaşabilirsiniz.
-
 
 #### Kullanım:
 
