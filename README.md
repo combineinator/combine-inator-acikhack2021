@@ -53,7 +53,7 @@ Sayfa Ayrıştırılıyor: 100%|██████████| 20/20 [00:02<00:
 ```
 
 #### Web Arayüz:
-Bu kütüphanemiz kullanım kolaylığı sağlanması amacıyla bir web arayüzüne entegre edilmiştir. Arayüz demo videosuna [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/web_arayuz_demo.mp4) ulaşabilirsiniz. Ayrıca .ipynb dosyasında yer alan kod sayesinde canlı olarak deneme gerçekleştirebilirsiniz. .ipynb dosyasına [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/Combineinator_Library.ipynb) ulaşabilirsiniz.
+Bu kütüphanemiz kullanım kolaylığı sağlanması amacıyla bir web arayüzüne entegre edilmiştir. Arayüz demo videosuna [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/web_arayuz_demo.mp4) ulaşabilirsiniz. Ayrıca .ipynb dosyasında yer alan kod sayesinde canlı olarak deneme gerçekleştirebilirsiniz. .ipynb dosyasına [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/Combineinator_Library.ipynb) ulaşabilirsiniz. Arayüz üzerinde gerçekleştirdiğiniz deneme sonucunda toplanan verinin kaydedildiği .txt dosyasında Colab üzerindeki "/content" dosyasından ulaşabilirsiniz.
 
 #### .py:
 Kütüphane fonksiyonlarının kullanımının sağlanmasına alternatif sunulması amacıyla repomuzda .py uzantılı bir dosya da mevcuttur. Dosyaya [buradan](https://github.com/combineinator/combine-inator-acikhack2021/blob/main/wiki_web_scraper.py) ulaşabilirsiniz.
